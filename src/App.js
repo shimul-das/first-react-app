@@ -21,11 +21,15 @@ const nayioks = ['shakib khan','bapparaz','josim','rubel','riyaz','razzak'];
   return (
     
     <div className="App">
-      {
+      {/* {
         nayioks.map(nayiok => <li>Name: {nayiok}</li>)
       }
       {
         nayioks.map(nayiok => <Person name={nayiok}></Person>)
+      } 
+      */}
+      {
+        singers.map(singer => <Person name={singer.name}></Person>)
       }
       {/* <Person name="Shimul Chandra Das" nayika="Porna Paul"></Person>
       <Person name="Shakibal Hassan" nayika="Sumiya Tabassum"></Person> */}
